@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upcoming Events</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <style>
+        .ShowMore{
+            color: blue;
+            text-decoration: underline;
+        }
+        .MenuButton{
+            text-decoration: none;
+        }
+        .MenuButton:hover{
+            text-decoration: underline;
+        }
+    </style>
+    <script src="Events.js"></script>
+</head>
+<body onload="SetTime()" style="overflow-x: hidden; margin: 8%; margin-top: 1%; font-family: 'Open Sans', sans-serif;">
+    <div style="width: 100%; position: absolute; top: 0%; left: 0%; background-color: #0c394c; height: 0.5%;"></div>
+    <div style="background-color: #0c394c; white-space:pre; width: 98%; font-size: large; color: white; padding: 1%;"><span role="button" class="MenuButton" onclick="document.location='Events.html'">Events</span>         <span role="button" class="MenuButton" onclick="document.location='index.html'">News</span></div>
+    <h1>Upcoming Events in Dunsandel:</h1>
+    <div style="max-width: 15%; position: absolute; top: 10%; right: 8%">
+        <center>
+            <strong style="font-family: Arial, Helvetica, sans-serif;">With proud support from</strong>
+        </center>
+        <img src="Selwyn_District_Cuntcil.png" style="width: 100%; position: relative;">
+    </div>
+    <!-- <hr>
+    <strong style="font-family: Arial, Helvetica, sans-serif;">Dunsandel 500 Year Aniversary</strong>
+    <span id="countdown"></span>
+    <p>The Dunsandel 500 Year Anniversary is a unique opportunity to celebrate the resilience, community spirit, and enduring legacy of this remarkable town. Come and be a part of history as we commemorate five centuries of progress, tradition, and the shared bonds that have made Dunsandel a place like no other.</p> -->
+    <div id="Aniversarys"></div>
+    <!-- <a onclick="SetTime()" style="color: blue; text-decoration: underline;">Load more...</a> -->
+</body>
+</html>
